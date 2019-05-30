@@ -1,0 +1,11 @@
+Introducere:
+Un emotion recognition poate fi considerat in 2 procese: recunoasterea fetei dupa care recunoasterea emotiei.
+Pentru fiecare proces exista urmatoarele solutii:
+	-Pentru recunoasterea fetei vom folosi "Haar feature-based cascade classifiers". Recunoaste fete in timp real si este eficient
+	-Pentru recunoasterea emotiei vom folosi "Xception CNN Model". Vom folosi o arhitectura CNN care preia fata (48*48 de pixeli) si poate prezice 7 tipuri de emotii (mai multe detalii aici: https://arxiv.org/pdf/1710.07557.pdf)
+
+Pentru Data-set putem folosi imaginile de la un vechi concurs kagle https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+Setul consta in 35 888 de exemple cu cele 7 categorii posibile(0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral)
+
+Pregatirea modelului: Modelul se poate gasi in acest document: https://arxiv.org/pdf/1710.07557.pdf
+
